@@ -7,6 +7,7 @@ A project is composed of two files: a Markdown file with headers, and an image. 
 !Important!: Should your Project already exist within this repo, refrain from creating a new Markdown file in the projects directory! Rather adapt your old one in a new PR. Same goes for changed images or Logos for your Project.
 
 # Example File
+``` mdx
 ---
 title: ioTube
 category: Project
@@ -19,6 +20,8 @@ featured_img: https://wp.gcap1.iotex.io/wp-content/uploads/2020/09/iotube-header
 telegram:
 twitter:
 ---
+```
+
 Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(required)** `title`: The title of the project
 - **(required)** `category`: A comma separated list of categories describing the project : Project | Partners | Exchanges & wallet
