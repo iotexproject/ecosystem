@@ -10,6 +10,7 @@ A project is composed of two files: a Markdown file with headers, and an image. 
 ``` mdx
 ---
 title: ioTube
+tag: DeFi,IoT,Dapps
 category: Project
 status: publish
 date: 2020-08-31
@@ -30,6 +31,7 @@ Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(required)** `website`: URL to the website (required)
 - **(optional)** `twitter`: URL to Twitter page (optional)
 - **(optional)** `telegram`: URL to Telegram channel (optional)
+- **(optional)** `tag`: The tag of the project,use english comma separation is required
 
 
 
