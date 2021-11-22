@@ -10,14 +10,12 @@ A project is composed of two files: a Markdown file with headers, and an image. 
 ``` mdx
 ---
 title: ioTube
-tag: DeFi,IoT,Dapps
-category: Project
+tag: DeFi,MachineFi,NFTs,Tools,DEX,Exchange
 status: publish
 date: 2020-08-31
 slug: A cross-chain bridge to transfer tokens/data between IoTeX and other blockchains like Ethereum
 website: https://tube.iotex.io
 logo: https://wp.gcap1.iotex.io/wp-content/uploads/2020/10/iotube-logo-1.png
-featured_img: https://wp.gcap1.iotex.io/wp-content/uploads/2020/09/iotube-header.png
 telegram:
 twitter:
 ---
@@ -25,13 +23,14 @@ twitter:
 
 Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(required)** `title`: The title of the project
-- **(required)** `category`: A comma separated list of categories describing the project : Project | Partners | Exchanges & wallet
+- **(optional)** `tag`: The tag of the project,use english comma separation is required.You can only choose in : `DeFi`, `MachineFi`, `NFTs`,`Tools`,`DEX`,`Exchange`
 - **(required)** `logo`: A relative path to the corresponding image
 - **(required)** `status`: The status of the project: `publish`, `building`, or `closed`
 - **(required)** `website`: URL to the website (required)
 - **(optional)** `twitter`: URL to Twitter page (optional)
 - **(optional)** `telegram`: URL to Telegram channel (optional)
-- **(optional)** `tag`: The tag of the project,use english comma separation is required
+- **(optional)** `slug`: The description of your project
+
 
 
 ## License
