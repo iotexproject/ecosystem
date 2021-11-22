@@ -15,7 +15,7 @@ status: publish
 date: 2020-08-31
 slug: A cross-chain bridge to transfer tokens/data between IoTeX and other blockchains like Ethereum
 website: https://tube.iotex.io
-logo: https://wp.gcap1.iotex.io/wp-content/uploads/2020/10/iotube-logo-1.png
+logo: /img/ioTube.png
 telegram:
 twitter:
 ---
