@@ -23,13 +23,13 @@ twitter:
 
 Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(required)** `title`: The title of the project
-- **(optional)** `tag`: The tag of the project,use english comma separation is required.You can only choose in : `DeFi`, `MachineFi`, `NFTs`,`Tools`,`GameFi`,`Exchange`,`Partners`
+- **(required)** `tag`: The tag of the project,use english comma separation is required.You can only choose in : `DeFi`, `MachineFi`, `NFTs`,`Tools`,`GameFi`,`Exchange`,`Partners`
 - **(required)** `logo`: A relative path to the corresponding image
 - **(required)** `status`: The status of the project: `publish`, `building`, or `closed`
 - **(required)** `website`: URL to the website (required)
 - **(optional)** `twitter`: URL to Twitter page (optional)
 - **(optional)** `telegram`: URL to Telegram channel (optional)
-- **(optional)** `slug`: The description of your project
+- **(required)** `slug`: The description of your project
 
 
 

@@ -1,0 +1,26 @@
+{
+  "name": "ecosystem",
+  "version": "1.0.0",
+  "description": "This repository is the data source for the IoTeX Ecosystem page, located at https://github.com/iotexproject/ecosystem.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotexproject/ecosystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iotexproject/ecosystem/issues"
+  },
+  "homepage": "https://github.com/iotexproject/ecosystem#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "tape": "^5.4.1"
+  }
+}
