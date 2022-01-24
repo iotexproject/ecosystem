@@ -31,7 +31,11 @@ Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(optional)** `telegram`: URL to Telegram channel (optional)
 - **(required)** `slug`: The description of your project
 
-
+## How to unit test
+```
+npm test
+```
+Please make sure the unit test is passed before submitting a PR.
 
 ## License
 
