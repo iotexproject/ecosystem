@@ -7,15 +7,24 @@ A project is composed of two files: a Markdown file with headers, and an image (
 !Important!: Should your Project already exist within this repo, refrain from creating a new Markdown file in the projects directory! Rather adapt your old one in a new PR. Same goes for changed images or Logos for your Project.
 
 # Example File
+`The file structure is as follows:`
+```
+├── imgs/
+│   ├── IoTeXEcosystem.png
+├── projects/
+│   ├── IoTeXEcosystem.mdx
+```
+
+`IoTeXEcosystem.mdx`
 ``` mdx
 ---
-title: ioTube
+title: IoTeX Ecosystem
 tag: DeFi,MachineFi,NFTs,Tools,GameFi,Wallet,Exchange,Partners
 status: publish
 date: 2020-08-31
-slug: A cross-chain bridge to transfer tokens/data between IoTeX and other blockchains like Ethereum
-website: https://tube.iotex.io
-logo: /img/ioTube.png
+slug: Explore the IoTeX ecosystem of devices, DApps, tokens, partners, and exchanges.
+website: https://ecosystem.iotex.io/
+logo: /img/IoTeXEcosystem.png
 telegram:
 twitter:
 ---
@@ -23,7 +32,7 @@ twitter:
 
 Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(required)** `title`: The title of the project
-- **(required)** `tag`: The tag of the project,use english comma separation is required.You can only choose in : `DeFi`, `MachineFi`, `NFTs`,`Tools`,`GameFi`,`Exchange`,`Partners`
+- **(required)** `tag`: The tag of the project,use english comma separation is required and `cannot contain any spaces`.You can only choose in : `DeFi`, `MachineFi`, `NFTs`,`Tools`,`GameFi`,`Exchange`,`Partners`
 - **(required)** `logo`: A relative path to the corresponding image
 - **(required)** `status`: The status of the project: `publish`, `building`, or `closed`
 - **(required)** `website`: URL to the website (required)
