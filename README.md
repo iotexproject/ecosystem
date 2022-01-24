@@ -9,7 +9,7 @@ A project is composed of two files: a Markdown file with headers, and an image (
 # Example File
 `The file structure is as follows:`
 ```
-├── imgs/
+├── img/
 │   ├── IoTeXEcosystem.png
 ├── projects/
 │   ├── IoTeXEcosystem.mdx
