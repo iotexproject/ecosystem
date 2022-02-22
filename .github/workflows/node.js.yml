@@ -11,6 +11,7 @@ on:
     types:
       - opened
       - ready_for_review
+      - labeled
 jobs:
   build:
 
