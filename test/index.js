@@ -29,7 +29,6 @@ test("verify projects mdx", function (t) {
           );
         }
         if (i == "tag") {
-          console.log(data.tag);
           if (data.tag.indexOf("，") > -1) {
             return t.fail(
               `The filed 'tag' in file '${filePath}' is wrong,please use ',' instead of '，'`
