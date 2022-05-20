@@ -56,7 +56,7 @@ test("verify projects mdx", function (t) {
           `Maybe the file '${filePath}' contains Chinese commas,please check it and replace to English commas`
         );
       } else {
-        t.fail(error.message);
+        t.fail(filePath + "\n" + error.message);
       }
     }
   });
