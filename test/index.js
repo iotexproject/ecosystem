@@ -28,6 +28,13 @@ test("verify projects mdx", function (t) {
             `This file which name is '${filePath}' ,is missing fields ${i}`
           );
         }
+        if (i == "tag") {
+          if (data.tag.indexOf("，") > -1) {
+            return t.fail(
+              `The filed 'tag' in file '${filePath}' is wrong,please use ',' instead of '，'`
+            );
+          }
+        }
         if (i == "logo") {
           if (data.hasOwnProperty(i)) {
             const logoPath = path.join(process.cwd(), String(data.logo));
@@ -43,8 +50,14 @@ test("verify projects mdx", function (t) {
       });
       t.pass();
     } catch (error) {
-      console.log(error);
-      t.fail(error.message);
+      const res = matter(source);
+      if (res.content.indexOf("，") > -1) {
+        return t.fail(
+          `Maybe the file '${filePath}' contains Chinese commas,please check it and replace to English commas`
+        );
+      } else {
+        t.fail(filePath + "\n" + error.message);
+      }
     }
   });
   t.end();
