@@ -19,7 +19,7 @@ A project is composed of two files: a Markdown file with headers, and an image (
 ``` mdx
 ---
 title: IoTeX Ecosystem
-tag: DeFi,MachineFi,NFTs,Tools,GameFi,Wallet,Exchange,Partners
+tag: DeFi,DePin,NFTs,Tools,GameFi,Wallet,Exchange,Partners
 status: publish
 date: 2020-08-31
 slug: Explore the IoTeX ecosystem of devices, DApps, tokens, partners, and exchanges.
@@ -32,7 +32,7 @@ twitter:
 
 Example(!) Markdown headers are above. Below are guidelines for each field:
 - **(required)** `title`: The title of the project
-- **(required)** `tag`: The tag of the project,use english comma separation is required and `cannot contain any spaces`.You can only choose in : `DeFi`, `MachineFi`, `NFTs`,`Tools`,`GameFi`,`Exchange`,`Partners`
+- **(required)** `tag`: The tag of the project,use english comma separation is required and `cannot contain any spaces`.You can only choose in : `DeFi`, `DePin`, `NFTs`,`Tools`,`GameFi`,`Exchange`,`Partners`
 - **(required)** `logo`: A relative path to the corresponding image
 - **(required)** `status`: The status of the project: `publish`, `building`, or `closed`
 - **(required)** `website`: URL to the website (required)
