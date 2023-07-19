@@ -6,6 +6,12 @@ A project is composed of two files: a Markdown file with headers, and an image (
 
 !Important!: Should your Project already exist within this repo, refrain from creating a new Markdown file in the projects directory! Rather adapt your old one in a new PR. Same goes for changed images or Logos for your Project.
 
+
+Please note that before submitting your project as a pull request, make sure you have communicated with IoTeX's BD Team and they are aware of your request.
+
+Contact: bd@iotex.io
+
+
 # Example File
 `The file structure is as follows:`
 ```
