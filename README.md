@@ -2,14 +2,12 @@
 This repository is the data source for the IoTeX Ecosystem page, located at https://github.com/iotexproject/ecosystem.
 
 # Contributing Guidelines
+**Please note** that before submitting your project as a pull request, make sure you have communicated with IoTeX's BD Team and they are aware of your request.
+**Contact: bd@iotex.io**
+
 A project is composed of two files: a Markdown file with headers, and an image (300x300). To add a new project to the ecosystem page, create both a new Markdown file in the projects directory and add a new image in the img directory.
 
 !Important!: Should your Project already exist within this repo, refrain from creating a new Markdown file in the projects directory! Rather adapt your old one in a new PR. Same goes for changed images or Logos for your Project.
-
-
-Please note that before submitting your project as a pull request, make sure you have communicated with IoTeX's BD Team and they are aware of your request.
-
-Contact: bd@iotex.io
 
 
 # Example File
